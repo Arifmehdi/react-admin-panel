@@ -8,9 +8,10 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Dashboard from "../Dashboard";
+import Categories from "../Categories/Categories";
+import Dashboard from "../Dashboard/Dashboard";
 import Main from "../Layout/Main";
-import Profile from "../Profile";
+import Profile from "../Profile/Profile";
 
 export const router = createBrowserRouter([
   {
@@ -26,7 +27,10 @@ export const router = createBrowserRouter([
             path: "/profile",
             element: <Profile></Profile>
         },
-        
+        {
+          path: "/categories",
+          element: <Categories></Categories>
+      },
 
     ]
   }

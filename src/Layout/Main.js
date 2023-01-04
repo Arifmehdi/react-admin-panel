@@ -1,8 +1,8 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Dashboard from '../Dashboard';
-import Header from '../Header';
-import Sidebar from '../Sidebar';
+import Dashboard from '../Dashboard/Dashboard';
+import Header from '../Header/Header';
+import Sidebar from '../Sidebar/Sidebar';
 
 const Main = () => {
     return (
