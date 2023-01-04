@@ -33,7 +33,7 @@ const Header = () => {
                                 </div>
                             </a>
                         </li>
-                        <li className="nav-item dropdown dropdown-large">
+                        <li className="nav-item dropdown dropdown-large mt-4">
                             <a className="nav-link dropdown-toggle dropdown-toggle-nocaret" href="profile.html" data-bs-toggle="dropdown">
                                 <div className="user-setting d-flex align-items-center gap-1">
                                     <img src="assets/images/avatars/avatar-1.png" className="user-img" alt=""/>
